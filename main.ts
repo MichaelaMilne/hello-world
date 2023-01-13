@@ -15,8 +15,7 @@ input.onGesture(Gesture.TiltLeft, function () {
         `)
 })
 input.onGesture(Gesture.ScreenUp, function () {
-    basic.showIcon(IconNames.Heart)
-    music.ringTone(988)
+    basic.showIcon(IconNames.Asleep)
 })
 input.onGesture(Gesture.ScreenDown, function () {
     music.ringTone(131)
